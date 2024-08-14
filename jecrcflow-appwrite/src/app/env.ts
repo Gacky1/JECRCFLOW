@@ -1,9 +1,9 @@
 const env={
     appwrite:{
-        endpoint:String(process.env.Next_PUBLIC_APPWRITE_HOST_URL),
-        projectId:String(process.env.NEXT_PUBLIC_APPWRITE_PROJECT_ID),
-        apikey: String(process.env.APPWRITE_API_KEY)
+        endpoint:"https://cloud.appwrite.io/v1",
+        projectId:"66ba63ef0027555a8289",
+        apikey: "1a2274ed5c0cf0909d90156696c3f9a1201a3377e92fbee2877b2204856b8e66b8ea3054b78e98f06abc54438a7fd2d85301cda6f73c51121e2eae42199e415cb695cc22d1414769dfb235c897b1351c022e4d91743c737173c68103c7719afd58bf8fb27230167e5647b7ffb537e96de39fed8e424037f966661048001b0c34"
     }
 }
 
-export default env
+export default env;

@@ -36,7 +36,6 @@ export default async function createQuestionCollection(){
             IndexType.FullText,
             [title],
             ['asc']
-        
         ),
         databases.createIndex(
             db,
