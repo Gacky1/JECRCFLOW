@@ -100,7 +100,7 @@ export async function POST(request:NextRequest){
                 document:null,voteResult:upvotes.total=
                 downvotes.total
             },
-            message:"Vote managed succesfully!"
+            message:"Vote managed succesfully! ;)"
         },
     {
         status:200
